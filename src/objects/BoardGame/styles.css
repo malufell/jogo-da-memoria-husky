@@ -1,6 +1,0 @@
-.board-game {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 1.5%;
-    justify-content: space-around;
-}
