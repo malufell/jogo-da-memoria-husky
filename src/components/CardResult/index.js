@@ -5,7 +5,7 @@ function CardResult(winner) {
     <div class="card-result">
       ${winner} winner!!
     </div>
-    <a href="/">Play again :D</div>
+    <a href="/jogo-da-memoria-husky/">Play again :D</div>
     
   `;
 }
