@@ -1,0 +1,44 @@
+.card-game {
+  width: 130px;
+  height: 160px;
+  margin: 1%;
+  font-family: fantasy;
+  font-size: 8rem;
+  color: var(--color-secondary);
+  background-color: var(--color-blue);
+  background-image: url(../../images/card.png);;
+  border: solid 4px var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.card-game-verse {
+  transition: 0.5s;
+  transform: rotate(2deg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  pointer-events: none;
+}
+
+#card1.card-game-verse, #card4.card-game-verse {
+  background-image: url(../../images/card1.png);
+}
+
+#card2.card-game-verse, #card5.card-game-verse {
+  background-image: url(../../images/card2.png);
+}
+
+#card3.card-game-verse, #card8.card-game-verse {
+  background-image: url(../../images/card4.png);
+}
+
+#card6.card-game-verse, #card10.card-game-verse {
+  background-image: url(../../images/card5.png);
+}
+
+#card9.card-game-verse, #card7.card-game-verse {
+  background-image: url(../../images/card3.png);
+}

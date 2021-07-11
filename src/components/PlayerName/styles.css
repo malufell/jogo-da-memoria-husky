@@ -1,0 +1,9 @@
+.player-name {
+  font-size: 3rem;
+  color: var(--color-secondary);
+}
+
+.active {
+  text-shadow: 0 0 0.3em #87F, 0 0 0.3em #87F, 0 0 0.3em #87F;
+  transform: scale(1.2);
+}

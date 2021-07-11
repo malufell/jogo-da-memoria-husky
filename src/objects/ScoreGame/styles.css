@@ -1,0 +1,11 @@
+.score-game {
+    display: flex;
+    justify-content: space-around;
+    margin: 4% auto 4% auto;
+}
+
+span {
+    color: var(--color-secondary);
+    font-size: 2rem;
+    align-self: center;
+}
